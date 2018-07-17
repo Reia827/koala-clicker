@@ -30,6 +30,21 @@ counter++
     container.innerHTML = counter
 }
     
+// document.title = `${clickCount} Koala${clickCount > 1 ? 's' : ''} - Koala Clicker`
+
+/* let displayTitle = document.querySelector("title");
+Ques - let displayTitle = document.querySelector("title");
+displayTitle.innerHTML = counter; */
+
+/*if (counter === 10) {
+let rotate = document.querySelector("img.clickable")
+rotate.setAttribute("class", "clickable2")
+alert("Congrats, you clicked 10 times!")
+} else if (counter === 20) {
+let rotate2 = document.querySelector("img.clickable2")
+rotate2.setAttribute("class", "clickable")
+alert ("Chill out!  That was your 20th click.")
+} */
     
 
 /* var button = document.getElementById("clickme"),
@@ -39,4 +54,14 @@ button.onclick = function() {
   button.innerHTML = "Click me: " + count;
 }; */
 
+/* if (counter == 10 || counter == 20) {	
+container.innerHTML = ""
+h2Text.setAttribute("style", "color:red")
+h2Text.innerHTML = counter
+h2Text.style.transition = "all 2s"
+h2Text.style.transform = "rotate(360deg)"
+} else {
+h2Text.innerHTML = ""
+container.innerHTML = counter
+} */
 
